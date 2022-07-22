@@ -95,6 +95,71 @@ nav{
 
 footer{
     background-color: rgba(39, 37, 37, 0.6);
-    
+    position: relative;
 }
 
+.contact{
+    background-color: rgba(39, 37, 37, 0.6);
+    border-radius: 50px;
+    background-color: rgba(39, 37, 37, 0.6);
+    padding: 20px;
+}
+
+.form-label{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0px;
+}
+
+.form-field{
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+    padding: 0px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+input[type=reset]{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
