@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html"><img src="asset/2560px-RMIT_University_Logo.svg.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cooking category.html">Cooking</a></li>
+                    <li><a href="horror category.html">Horror</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header><br>
+
+    <section class="contact">
+        <form onsubmit="return false;" method="post" action="exercise1.html" enctype="multipart/form-data">
+            <div class="form-row">
+              <div class="form-label">
+                <label for="purpose">Contract purpose</label>
+              </div>
+              <div class="form-field">
+                <select id="purpose" name="purpose">
+                  <option value="op-sell">I want to sell books</option>
+                  <option value="op-buy">I want to buy books</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-label">
+                <label for="name">Your name</label>
+              </div>
+              <div class="form-field">
+                <input required id="name" type="text" name="name" maxlength="50">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-label">
+                <label for="email">Your email</label>
+              </div>
+              <div class="form-field">
+                <input required id="email" type="email" name="email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-label">
+                <label for="phone">Your phone</label>
+              </div>
+              <div class="form-field">
+                <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}" title="Enter 9 to 13 digits">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-label">
+                <label>How can we contact you?</label>
+              </div>
+              <div class="form-field">
+                <ul>
+                  <li>
+                    <input type="radio" id="contact_email" name="contact_method" value="email">
+                    <label for="contact_email">By Email</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="contact_phone" name="contact_method" value="phone">
+                    <label for="contact_phone">By Phone</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                  <label>Do you want to receive our weekly newsletter?</label>
+                </div>
+                <div class="form-field">
+                  <ul>
+                    <li>
+                      <input type="radio" id="contact_email" name="contact_method" value="email">
+                      <label for="contact_email">Yes</label>
+                    </li>
+                    <li>
+                      <input type="radio" id="contact_phone" name="contact_method" value="phone">
+                      <label for="contact_phone">No</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>   
+            <div class="form-row">
+              <div class="form-label">
+                <label for="message">Note</label>
+              </div>
+              <div class="form-field">
+                <textarea cols="40" rows="10" required id="message" name="message"></textarea>
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <div class="form-label">
+                <label for="attachment">Your attachment</label>
+              </div>
+              <div class="form-field">
+                <input type="file" name="attachment" id="attachment">
+              </div>
+            </div>
+      
+            <div class="form-row">
+              <input type="reset" value="   Clear   ">
+              <input type="submit" value="   Send   ">
+            </div>
+          </form>
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    
+</body>
+</html>
