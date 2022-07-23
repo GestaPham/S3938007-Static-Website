@@ -292,7 +292,6 @@ input[type=reset]{
 
     footer nav{
         display: flex;
-        flex: 1;
         text-align: right;
     }
 
@@ -304,7 +303,7 @@ input[type=reset]{
 
 
     .grid-item-large-img img{
-        width: 300px;
+        width: 220px;
     }
 
     .grid-item-small-img{
@@ -312,8 +311,8 @@ input[type=reset]{
     }
 
     .grid-item-small-img img{
-        width: 150px;
-        padding-left: 10px;
+        width: 120px;
+        padding-left: 8px;
     }
 
     .grid-item-price-tag {
@@ -323,5 +322,15 @@ input[type=reset]{
 
     .form-row{
         display: block;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .book{
+        padding-bottom: 5px;
+        width: 300px;
+        height: auto;
     }
 }
