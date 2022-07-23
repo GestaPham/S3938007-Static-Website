@@ -5,10 +5,14 @@ COSC2430 - Web Programming Assessment 1
 Student ID: S3938007
 Student Name: Pham Hoang Long
 
+url: https://gestapham.github.io/S3938007-Static-Website/
 
 ONLINE BOOK STORE
 
-url:
+The static online book store website consist of a Home page, two category pages, Book Detail page, Contact Us page.
+Each category pages have another three sub-category.
+The website is also responsive for two type of devices: mobile (width <= 960px) and desktop (width > 960px)
+
 
 
 
