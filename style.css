@@ -174,18 +174,18 @@ input[type=reset]{
 }
 
 .breadcrumb ul{
-    padding: 10px 16px;
+    padding: 30px 16px;
     list-style: none;
 }
 
 .breadcrumb li{
     display: inline;
-    font-size: 18px;
+    padding: 0px;
+    font-size: 22px;
     color: white;
 }
 
 .breadcrumb li a{
-    font-size: 18;
     text-decoration: none;
     color: white;
 }
