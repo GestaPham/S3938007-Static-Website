@@ -101,7 +101,6 @@ footer{
 .contact{
     background-color: rgba(39, 37, 37, 0.6);
     border-radius: 50px;
-    background-color: rgba(39, 37, 37, 0.6);
     padding: 20px;
 }
 
@@ -162,4 +161,112 @@ input[type=reset]{
     font-size: 20px;
     margin: 20px;
     padding: 10px;
+}
+
+.book-detail{
+    background-color: rgba(39, 37, 37, 0.6);
+    padding: 10px;
+}
+
+.breadcrumb{
+    text-align: center;
+    padding: 10px;
+}
+
+.breadcrumb ul{
+    padding: 10px 16px;
+    list-style: none;
+}
+
+.breadcrumb li{
+    display: inline;
+    font-size: 18px;
+    color: white;
+}
+
+.breadcrumb li a{
+    font-size: 18;
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumb li+li::before{
+    padding: 10px;
+    color: rgb(220, 210, 210);
+    content: ">\00a0"; 
+}
+
+.book-description{
+    margin: 20px;
+    padding: 10px;
+}
+
+.book-description h1{
+    font-size: 30px;
+    color: white;
+    line-height: 3;
+}
+
+.book-description p{
+    font-size: 20px;
+    color: white;
+    line-height: 1.8;
+}
+
+.grid-container{
+    display: flex;
+    margin: 20px;
+    padding: auto;
+    gap: 50px 100px;
+}
+
+.grid-item-large-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item-large-img img{
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    padding: auto;   
+}
+
+.grid-item-small-img{
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item-small-img img{
+    padding-left: 150px;
+    margin: 10px;
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+
+.grid-item-price-tag{
+    text-align: center;
+    line-height: 2;
+    padding: 100px;
+    margin: 100px;
+}
+
+.grid-item-price-tag h1{
+    color: white;
+    font-size: 45px;
+    position: relative;
+}
+
+.grid-item-price-tag button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px 35px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
